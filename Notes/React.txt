@@ -14,3 +14,13 @@ Stateful vs Stateless
 Los componentes no funcionales no manejan estado, solo manejan información y funciones.
 
 Los componentes de clases manejan un estado interno, información y funciones, no hace falta definir las funciones con const simplemente con el nombre de la función ya lo detecta.
+
+Ciclo de vida de React
+Tenemos 4 fases por los que un componente pasa:
+
+Initialization: Declaramos nuestro estado o propiedades
+Mounting: Todo componente debe tener render. Es obligatorio.
+Updation
+Unmounting: Solo hay una función en caso de que queramos hacer algo cuando se destruya un componente
+
+npm install axios
