@@ -31,3 +31,8 @@ Redux Thunk
 Redux Thunk permite a las action creators invertir el control despachando funciones. Van a recibir dispatch como argumento y capaz llamarlo asíncronamente. Estas funciones son llamas thunks.
 
 npm install redux-thunk
+
+Explicación teórica: ciclo completo de Redux
+Cuando nuestro componente terminar de cargar (componentDidMount) llama al Action Creator, luego el Action Creator contiene la promesa, trae los datos necesarios y luego va y modifica al Reducer para que actualice el estado usando dispatch() y luego lo actualizamos en el componente con el mapStateToProps.
+
+Si no tenemos estos pasos no nos va a funcionar.
