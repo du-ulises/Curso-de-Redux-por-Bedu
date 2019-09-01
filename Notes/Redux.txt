@@ -10,3 +10,14 @@ Store: Almacenamiento
 Reducers: Estados
 Action Creators: Funciones
 Componente: Código JSX
+
+Store
+El store tiene las siguientes responsabilidades:
+
+Contiene el estado de la aplicación
+Permite el acceso al estado vía getState()
+Permite que el estado sea actualizado vía dispatch(action)
+Registra los listeners vía subscribe(listener)
+Maneja la anuliación del registro de los listeners via el retorno de la función de subscribe(listener)
+
+npm install redux react-redux
