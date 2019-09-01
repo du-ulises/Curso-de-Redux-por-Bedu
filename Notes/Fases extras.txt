@@ -1,0 +1,15 @@
+Archivos Types
+
+Try Catch
+try permite definir un bloque de código para que se analice en busca de errores mientras se ejecuta.
+
+catch permite definir un bloque de código para ejecutarse, si se produce un error en el bloque try.
+
+Ejemplo de uso:
+
+try {  
+// Bloque de código a intentar
+}  
+catch(Exception _e_) {  
+// Bloque de código para manejar errores
+}
