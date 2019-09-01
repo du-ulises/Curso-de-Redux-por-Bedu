@@ -27,3 +27,7 @@ Las Action Creators describen que algo pasó, pero no especifican cómo cambió 
 
 El Provider es el componente de Redux en el cual encerraremos nuestra aplicación para que puedan comunicarse los componentes entre ellos.
 
+Redux Thunk
+Redux Thunk permite a las action creators invertir el control despachando funciones. Van a recibir dispatch como argumento y capaz llamarlo asíncronamente. Estas funciones son llamas thunks.
+
+npm install redux-thunk
