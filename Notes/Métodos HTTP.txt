@@ -1,0 +1,5 @@
+Introducción a métodos HTTP
+Bienvenido al módulo para trabajar con métodos HTTP, normalizar datos, mapear objetos, POST, PUT y DELETE.
+
+Pon en la sección de comentarios como vas con tu proyecto, nos interesaría saber que has hecho y cómo lo has hecho. No dudes en preguntar cualquier cosa en el área de discusiones.
+
