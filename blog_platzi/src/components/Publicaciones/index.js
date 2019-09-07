@@ -93,7 +93,7 @@ class Publicaciones extends Component {
                 className='pub_titulo'
                 key={publicacion.id}
                 onClick={
-                    () => this.props.this.mostrarComentarios(pub_key, com_key, publicacion.comentarios) 
+                    () => this.mostrarComentarios(pub_key, com_key, publicacion.comentarios) 
                 }
             >
                 <h2>
@@ -103,7 +103,7 @@ class Publicaciones extends Component {
                     {publicacion.body}
                 </h3>
                 {
-                    (publicacion.abierto) ? <Comentarios /> : ''
+                    (publicacion.abierto) ? <Comentarios comentarios={ publicacion.comentarios } /> : ''
                 }
             </div>
         ))
