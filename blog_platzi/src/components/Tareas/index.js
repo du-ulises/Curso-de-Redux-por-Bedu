@@ -7,7 +7,7 @@ class Tareas extends Component {
         this.props.traerTodas();
     }
     render() {
-        console.log(this.UNSAFE_componentWillReceiveProps);
+        console.log(this.props);
         
         return (
             <div>Tareas saludar</div>
