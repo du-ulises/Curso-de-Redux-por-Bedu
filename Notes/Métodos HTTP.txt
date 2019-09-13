@@ -3,3 +3,7 @@ Bienvenido al módulo para trabajar con métodos HTTP, normalizar datos, mapear 
 
 Pon en la sección de comentarios como vas con tu proyecto, nos interesaría saber que has hecho y cómo lo has hecho. No dudes en preguntar cualquier cosa en el área de discusiones.
 
+Mapear Objetos
+Un objeto Map puede iterar sobre sus elementos en orden de inserción. Un bucle for..of devolverá un array de [clave, valor] en cada iteración.
+
+Cabe destacar que un Map el cual es un mapa de un objeto, especialmente un diccionario de diccionarios, solo se va a mapear en el orden de inserción del objeto — el cual es aleatorio y no ordenado.
