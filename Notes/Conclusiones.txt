@@ -1,0 +1,7 @@
+Conocimientos adquiridos
+Empezamos este curso utilizando react, nuestro estado local y luego utilizando herencia para pasar las propiedades de un componente padre a un componente hijo.
+
+Ahora ya estamos utilizando React y Redux en conjunto para manejar un estado global y compartirlo con cualquiera de nuestros componentes. Usando normalización de los datos y las mejores prácticas.
+
+Aprendimos a referenciar otros estados, combinarlos en uno solo, con arreglos y con objetos. Aprendimos a estructurar los datos como un flujo de información, archivos types, inmutabilidad y normalización. Estados de asincronía, métodos http, redireccionar a rutas y validaciones.
+
